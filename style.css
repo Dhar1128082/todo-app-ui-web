@@ -1,0 +1,73 @@
+body{
+    margin:auto;
+    padding:5rem 14rem 7rem;
+   
+}
+
+.material-symbols-outlined {
+    background-color: orangered;
+    color: white;
+    border-radius: 50%;
+    font-size: 4rem !important;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+h1{
+    display: inline-block;
+    font-size: 5rem;
+}
+
+#one{
+    font-size: 5rem;
+}
+#two{
+    font-size: 3rem;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    gap: 2.5rem;
+    height: 100%;
+    
+}
+
+.three{
+    height:23rem ;
+    width: 15rem;
+    border: 1px solid red;
+    border-radius: 0.7rem;
+    box-shadow: 1rem 1rem 0.9rem grey;
+    text-align: center;
+    vertical-align:bottom;
+    font-size: 1.3rem;
+    border-bottom: 70%;
+    color: black;
+}
+#span1, #span2, #span3{
+    text-decoration: line-through;
+    color: red;
+}
+#span4, #span5, #span6,a
+{
+    color: red;
+    text-decoration: none;
+}
+
+hr{
+    width: 70%;
+    text-align: right;
+    margin-right: 0;
+}
+
